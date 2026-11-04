@@ -35,3 +35,25 @@ The project uses flight records containing information about flight schedules an
 
 ## Author
 GitHub: [as2006-ux](https://github.com/as2006-ux)
+
+## Results and Performance Analysis
+
+### 1. K-Means Clustering
+The K-Means algorithm was evaluated using silhouette scores for different cluster counts.
+
+| Number of Clusters (K) | Silhouette Score |
+|---|---:|
+| 2 | 0.1284 |
+| 3 | 0.1162 |
+| 4 | 0.1335 |
+| 5 | 0.1371 |
+
+The highest silhouette score was obtained at K = 5.
+
+### 2. Principal Component Analysis (PCA)
+Six principal components were used to explain approximately 100% of the variance in the selected dataset features. Six components were required to cross the 90% explained variance threshold.
+
+### 3. Overall Analysis
+The project explores multiple mathematical and machine learning approaches to understand flight delay patterns, including regression, classification, clustering, dimensionality reduction, and Hidden Markov Models.
+
+Detailed results and visualizations are available in the respective Jupyter notebooks.
